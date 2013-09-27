@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE15DA6817F5219300FA5467 /* white-shell.png in Resources */ = {isa = PBXBuildFile; fileRef = FE15DA6717F5219300FA5467 /* white-shell.png */; };
+		FE15DA6A17F523D400FA5467 /* black-shell.png in Resources */ = {isa = PBXBuildFile; fileRef = FE15DA6917F523D400FA5467 /* black-shell.png */; };
+		FE15DA6C17F523FA00FA5467 /* Blank_Go_board.png in Resources */ = {isa = PBXBuildFile; fileRef = FE15DA6B17F523FA00FA5467 /* Blank_Go_board.png */; };
 		FE37BF9216A5E2230026E5A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37BF9116A5E2230026E5A3 /* UIKit.framework */; };
 		FE37BF9416A5E2230026E5A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37BF9316A5E2230026E5A3 /* Foundation.framework */; };
 		FE37BF9616A5E2230026E5A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37BF9516A5E2230026E5A3 /* CoreGraphics.framework */; };
@@ -23,6 +26,10 @@
 		FE37BFB816A5E2240026E5A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37BF9316A5E2230026E5A3 /* Foundation.framework */; };
 		FE37BFC016A5E2240026E5A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE37BFBE16A5E2240026E5A3 /* InfoPlist.strings */; };
 		FE37BFC316A5E2240026E5A3 /* go_training3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37BFC216A5E2240026E5A3 /* go_training3Tests.m */; };
+		FE37BFD016A5E2900026E5A3 /* GTBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37BFCF16A5E2900026E5A3 /* GTBoardView.m */; };
+		FE37BFD316A5E2B10026E5A3 /* GTGoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37BFD216A5E2B10026E5A3 /* GTGoGame.m */; };
+		FE37BFD616A5E3C50026E5A3 /* GTStone.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37BFD516A5E3C50026E5A3 /* GTStone.m */; };
+		FE37BFDD16A5E97E0026E5A3 /* GTBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37BFDC16A5E97E0026E5A3 /* GTBoardCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE15DA6717F5219300FA5467 /* white-shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-shell.png"; sourceTree = "<group>"; };
+		FE15DA6917F523D400FA5467 /* black-shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-shell.png"; sourceTree = "<group>"; };
+		FE15DA6B17F523FA00FA5467 /* Blank_Go_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank_Go_board.png; sourceTree = "<group>"; };
 		FE37BF8D16A5E2230026E5A3 /* go-training3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "go-training3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE37BF9116A5E2230026E5A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE37BF9316A5E2230026E5A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,14 @@
 		FE37BFBF16A5E2240026E5A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE37BFC116A5E2240026E5A3 /* go_training3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = go_training3Tests.h; sourceTree = "<group>"; };
 		FE37BFC216A5E2240026E5A3 /* go_training3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = go_training3Tests.m; sourceTree = "<group>"; };
+		FE37BFCE16A5E2900026E5A3 /* GTBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBoardView.h; sourceTree = "<group>"; };
+		FE37BFCF16A5E2900026E5A3 /* GTBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBoardView.m; sourceTree = "<group>"; };
+		FE37BFD116A5E2B10026E5A3 /* GTGoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTGoGame.h; sourceTree = "<group>"; };
+		FE37BFD216A5E2B10026E5A3 /* GTGoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTGoGame.m; sourceTree = "<group>"; };
+		FE37BFD416A5E3C50026E5A3 /* GTStone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTStone.h; sourceTree = "<group>"; };
+		FE37BFD516A5E3C50026E5A3 /* GTStone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTStone.m; sourceTree = "<group>"; };
+		FE37BFDB16A5E97E0026E5A3 /* GTBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBoardCell.h; sourceTree = "<group>"; };
+		FE37BFDC16A5E97E0026E5A3 /* GTBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBoardCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +137,8 @@
 			children = (
 				FE37BFA016A5E2240026E5A3 /* GTAppDelegate.h */,
 				FE37BFA116A5E2240026E5A3 /* GTAppDelegate.m */,
-				FE37BFA916A5E2240026E5A3 /* MainStoryboard.storyboard */,
-				FE37BFAC16A5E2240026E5A3 /* GTViewController.h */,
-				FE37BFAD16A5E2240026E5A3 /* GTViewController.m */,
+				FE37BFCD16A5E22C0026E5A3 /* model */,
+				FE37BFCC16A5E22A0026E5A3 /* ui */,
 				FE37BF9816A5E2230026E5A3 /* Supporting Files */,
 			);
 			path = "go-training3";
@@ -130,6 +147,9 @@
 		FE37BF9816A5E2230026E5A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE15DA6917F523D400FA5467 /* black-shell.png */,
+				FE15DA6B17F523FA00FA5467 /* Blank_Go_board.png */,
+				FE15DA6717F5219300FA5467 /* white-shell.png */,
 				FE37BF9916A5E2230026E5A3 /* go-training3-Info.plist */,
 				FE37BF9A16A5E2230026E5A3 /* InfoPlist.strings */,
 				FE37BF9D16A5E2240026E5A3 /* main.m */,
@@ -158,6 +178,31 @@
 				FE37BFBE16A5E2240026E5A3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE37BFCC16A5E22A0026E5A3 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FE37BFA916A5E2240026E5A3 /* MainStoryboard.storyboard */,
+				FE37BFAC16A5E2240026E5A3 /* GTViewController.h */,
+				FE37BFAD16A5E2240026E5A3 /* GTViewController.m */,
+				FE37BFCE16A5E2900026E5A3 /* GTBoardView.h */,
+				FE37BFCF16A5E2900026E5A3 /* GTBoardView.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		FE37BFCD16A5E22C0026E5A3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE37BFD116A5E2B10026E5A3 /* GTGoGame.h */,
+				FE37BFD216A5E2B10026E5A3 /* GTGoGame.m */,
+				FE37BFD416A5E3C50026E5A3 /* GTStone.h */,
+				FE37BFD516A5E3C50026E5A3 /* GTStone.m */,
+				FE37BFDB16A5E97E0026E5A3 /* GTBoardCell.h */,
+				FE37BFDC16A5E97E0026E5A3 /* GTBoardCell.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE15DA6A17F523D400FA5467 /* black-shell.png in Resources */,
+				FE15DA6C17F523FA00FA5467 /* Blank_Go_board.png in Resources */,
 				FE37BF9C16A5E2240026E5A3 /* InfoPlist.strings in Resources */,
 				FE37BFA416A5E2240026E5A3 /* Default.png in Resources */,
+				FE15DA6817F5219300FA5467 /* white-shell.png in Resources */,
 				FE37BFA616A5E2240026E5A3 /* Default@2x.png in Resources */,
 				FE37BFA816A5E2240026E5A3 /* Default-568h@2x.png in Resources */,
 				FE37BFAB16A5E2240026E5A3 /* MainStoryboard.storyboard in Resources */,
@@ -274,6 +322,10 @@
 				FE37BF9E16A5E2240026E5A3 /* main.m in Sources */,
 				FE37BFA216A5E2240026E5A3 /* GTAppDelegate.m in Sources */,
 				FE37BFAE16A5E2240026E5A3 /* GTViewController.m in Sources */,
+				FE37BFD016A5E2900026E5A3 /* GTBoardView.m in Sources */,
+				FE37BFD316A5E2B10026E5A3 /* GTGoGame.m in Sources */,
+				FE37BFD616A5E3C50026E5A3 /* GTStone.m in Sources */,
+				FE37BFDD16A5E97E0026E5A3 /* GTBoardCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +502,7 @@
 				FE37BFC816A5E2240026E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE37BFC916A5E2240026E5A3 /* Build configuration list for PBXNativeTarget "go-training3Tests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +511,7 @@
 				FE37BFCB16A5E2240026E5A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
